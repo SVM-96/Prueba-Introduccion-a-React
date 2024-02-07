@@ -1,0 +1,54 @@
+.digimon-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.digimon-card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.digimon-card img {
+  max-height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.digimon-card .card-body {
+  padding: 1.5rem;
+}
+
+.digimon-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.digimon-card .card-text {
+  color: #666;
+}
+
+.digimon-search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.digimon-search-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+body {
+  background-image: url("https://c.wallhere.com/photos/6d/c8/GNU_Linux_Digimon-1978933.jpg!d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+  color: white;
+}
